@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebStudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="site-nav">
+        <a href="./" class="logo link">
+          <span class="particle">Web</span>Studio
+        </a>
+
+        <ul class="nav-pages list">
+          <li class="item"><a href="./" class="link">Студія</a></li>
+          <li class="item">
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
+          </li>
+          <li class="item"><a href="#" class="link">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <ul class="nav-contacts list">
+        <li class="item">
+          <a href="mailto:info@devstudio.com" class="link">
+            <svg class="mail icon" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li class="item">
+          <a href="tel:+380961111111" class="link"><svg class="phone icon" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Our projects -->
+    <section class="section projects">
+      <div class="filter container">
+        <h1 class="section-title visually-hidden">Наші проєкти</h1>
+        <ul class="filter list">
+          <li><button type="button" class="button secondary">Усі</button></li>
+          <li>
+            <button type="button" class="button secondary">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Маркетинг</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <ul class="projects list">
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example1.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                    сервісів. Все це дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Проєкт <span lang="en">Prime</span>
+                </h2>
+                <p class="project-description">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example2.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+                    provident
+                    ea sed natus illum placeat minima, minus consequuntur explicabo magnam ab commodi nobis aliquam.
+                    Facere quae accusamus quo repellendus praesentium.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h2>
+                <p class="project-description">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example3.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel animi et culpa
+                    itaque cumque, illo blanditiis. Sapiente, magnam! Nemo mollitia fugit assumenda fugiat consectetur
+                    molestias delectus quia veritatis sequi sit.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Ресторан <span lang="en">Seafood</span>
+                </h2>
+                <p class="project-description">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example4.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse deserunt
+                    itaque repudiandae corporis totam, omnis, eius dolore doloribus dicta sint eos, quos quae facilis
+                    laboriosam asperiores unde maxime laudantium quod.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Проєкт <span lang="en">Prime</span>
+                </h2>
+                <p class="project-description">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example5.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque architecto
+                    voluptates perferendis quasi, quidem assumenda delectus sit eos quod id, quis consequuntur molestias
+                    reiciendis totam placeat minus! Facere, recusandae fugiat?</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Проєкт <span lang="en">Boxes</span>
+                </h2>
+                <p class="project-description">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example6.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem
+                    quas deleniti aspernatur earum id rerum molestias illum quam recusandae ut, delectus reiciendis
+                    velit
+                    porro veritatis autem animi, praesentium sit!</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="project-description">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example7.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi minus rerum
+                    similique asperiores repellendus tenetur architecto, ipsam consequatur sunt iusto in tempore dolorum
+                    alias. Minus voluptate ipsam nostrum fugiat dolores.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Видання <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="project-description">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example8.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat
+                    corporis dolorem sit porro ad nostrum nam quisquam eos eius explicabo, voluptatem enim nisi amet
+                    alias
+                    sed consequatur expedita animi.</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title">
+                  Проєкт <span lang="en">LAB</span>
+                </h2>
+                <p class="project-description">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="project item">
+            <a href="#" class="project-link link">
+              <div class="project-thumb">
+                <img src="./images/portfolio/project_example9.jpg" alt="приклад проєкта" width="370" height="294" />
+                <div class="project-overlay">
+                  <p class="project-poptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, neque quo
+                    corporis consequuntur minima maiores, amet quam a consectetur laboriosam saepe pariatur quia dolor
+                    hic
+                    placeat repudiandae iusto harum alias!</p>
+                </div>
+              </div>
+              <div class="project-box">
+                <h2 class="project-title" lang="en">Growing Business</h2>
+                <p class="project-description">Додаток</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-navigation">
+
+        <a href="/" class="logo link">
+          <span class="particle">Web</span>Studio
+        </a>
+
+        <address>
+          <ul class="footer-address list">
+            <li class="item">
+              <a href="https://goo.gl/maps/rB3SQ3F6U8PJNXKP9" class="address link">м. Київ, пр-т Лесі Українки, 26</a>
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="email link">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="phone link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="footer-socials">
+        <h2 class="socials-title">приєднуйтесь</h2>
+        <ul class="social-links list">
+          <li class="social-item">
+            <a href="#" class="social-link link">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link link">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link link">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link link">
+              <svg class="icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-subscribe">
+        <h2 class="subscribe-title title">Підпишіться на розсилку</h2>
+        <div class="subscribe-container">
+          <input type="email" class="subscribe-input" placeholder="E-mail" name="subscribe">
+          <button type="submit" class="subscribe-button button">
+            Підписатися
+            <svg class="subscribe-icon icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,13 +1,11 @@
-%link {
-    text-decoration: none;
-    color: inherit;
-}
+.logo {
+    @extend %link;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: Raleway, sans-serif;
 
-%link {
-    list-style-type: none;
-}
-
-%section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    &__particle {
+        color: $accent;
+    }
 }

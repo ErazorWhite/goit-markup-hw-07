@@ -9,7 +9,7 @@
         display: flex;
         align-items: baseline;
         margin-right: auto;
-        gap: 70px;
+        gap: 93px;
     }
 
     &__logo {
@@ -26,6 +26,10 @@
     &__email,
     &__phone {
         color: $tretiaryDark;
+    }
+
+    &__list {
+        @extend %list;
     }
 
     &__item {

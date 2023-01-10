@@ -28,7 +28,7 @@ img {
 }
 
 .icon {
-  fill: currentColor;
+    fill: currentColor;
 }
 
 .visually-hidden {
@@ -47,6 +47,16 @@ img {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &__title {
+        margin-bottom: 50px;
+        text-align: center;
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    }
 }
 
 .container {
